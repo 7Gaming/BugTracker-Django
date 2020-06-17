@@ -1,0 +1,42 @@
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    border: 1px solid #ddd;
+    
+    display: inline-block;
+    overflow-y: scroll;
+    overflow-x: hidden;
+
+    width: 175px;
+    height:400px;
+}
+
+#tables{
+    position: absolute;
+    bottom: 5%;
+}
+
+tbody{
+    display: block;
+    width: 100%;
+}
+
+th, td {
+    display:block;
+    width: 100%;
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    text-align: center;
+}
+
+tr{
+    display:block;
+    width: 100%;
+}
+
+tr:nth-child(even){
+    background-color: #f2f2f2
+}
